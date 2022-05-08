@@ -1,0 +1,7 @@
+.profile__edit-frame {
+    min-width: 24px;
+    /* max-height: 24px; */
+    border: 1px solid #FFF;
+    /* margin: 0; */
+    margin: 15px 0 34px;
+}
