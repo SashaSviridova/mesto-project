@@ -1,0 +1,7 @@
+.element__feedback {
+
+}
+
+.element__feedback:hover {
+    opacity: 0.6;
+}

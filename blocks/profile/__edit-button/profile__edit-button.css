@@ -1,5 +1,21 @@
 .profile__edit-button {
     /* max-width: 24px;
     border: 1px solid #FFF; */
-    max-width: 10px:
+    /* max-width: 10px: */
+    width: 24px;
+    height: 24px;
+    background-image: url(./../../../images/Vector2.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 10px;
+    /* max-height: 24px; */
+    border: 1px solid #FFF;
+    /* margin: 0; */
+    margin: 15px 0 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6;
 }

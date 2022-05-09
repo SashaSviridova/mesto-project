@@ -1,4 +1,7 @@
 .profile__info {
-    padding: 22px 244px 0 30px;
+    padding: 0 244px 0 30px;
     min-width: 336px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
