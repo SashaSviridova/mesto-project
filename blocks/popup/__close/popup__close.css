@@ -4,16 +4,37 @@
     /* background-position: 50%;
     background-repeat: no-repeat; */
     background-size: contain;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top: -43px;
+    right: -43px;
     /* color: yellow; */
     border: none;
+    padding: 0;
 }
 
 .popup__close:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1280px) {
+    .popup__close {
+
+    }
+}
+@media screen and (max-width: 1000px) {
+    .popup__close {
+
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .popup__close {
+        width: 20px;
+        height: 20px;
+        top: -36px;
+        right: 0px;
+    }
 }

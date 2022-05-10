@@ -7,3 +7,27 @@
     padding-bottom: 16px;
     margin: 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .section-title {
+        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section-title {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section-title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        /* line-height: 33px; */
+        text-align: center;
+        padding-bottom: 14px;
+        max-height: 26px;
+    }
+}

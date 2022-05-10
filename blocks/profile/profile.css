@@ -5,3 +5,25 @@
     align-items: center;
     margin: 40px 0 0;
 }
+
+@media screen and (max-width: 1280px) {
+    .profile {
+        
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        margin: 42px 0 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .profile {
+        width: 100%;
+        margin: 0;
+        padding-top: 42px;
+    }
+}

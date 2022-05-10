@@ -7,3 +7,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@media screen and (max-width: 1280px) {
+    .elements__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .elements__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .elements__grid {
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+    }
+}
