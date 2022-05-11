@@ -7,12 +7,6 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width: 1280px) {
-    .page {
-        /* width: 100%; */
-        margin: 0 auto;
-    }
-}
 @media screen and (max-width: 1000px) {
     .page {
         /* margin-top: 28px; */
@@ -27,5 +21,6 @@
     .page {
         max-width: 320px;
         margin: 0;
+        padding: 28px 0px 36px;
     }
 }

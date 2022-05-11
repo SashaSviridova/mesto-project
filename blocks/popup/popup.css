@@ -1,7 +1,7 @@
 .popup {
     position: fixed;
     content: '';
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     display: none;
@@ -12,7 +12,7 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
-.popup::before {
+/* .popup::before {
     display: none;
     visibility: hidden;
-}
+} */

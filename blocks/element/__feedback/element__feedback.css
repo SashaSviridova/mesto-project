@@ -1,7 +1,17 @@
 .element__feedback {
-
+    width: 23px;
+    height: 23px;
+    background-image: url(./../../../images/Vector4.svg);
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-position: 50%;
+    border: none;
+    background-color: transparent;
+    align-self: center;
+    margin: 5px 5px 1px 0;
 }
 
 .element__feedback:hover {
-    opacity: 0.6;
+    opacity: 0.5;
+    cursor: pointer;
 }

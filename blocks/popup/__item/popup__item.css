@@ -1,12 +1,12 @@
 .popup__item {
-    padding: 0 0 13px;
+    padding: 0 0 6px;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    max-height: 27px;
-    line-height: 17px;
+    /* max-height: 27px; */
+    line-height: 14px;
     text-decoration-color: black;
     border-top: none;
     border-left: none;

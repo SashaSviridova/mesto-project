@@ -5,19 +5,8 @@
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    /* line-height: 29px; */
-    max-height: 23px;
-}
-
-@media screen and (max-width: 1280px) {
-    .popup__heading {
-
-    }
-}
-@media screen and (max-width: 1000px) {
-    .popup__heading {
-
-    }
+    line-height: 23px;
+    /* max-height: 23px; */
 }
 
 @media screen and (max-width: 530px) {

@@ -1,5 +1,7 @@
 # Проект: Место
 
+Ссылка на [проект](https://github.com/SashaSviridova/mesto-project.git)
+
 ### Обзор
 * Интро
 * Figma
