@@ -1,6 +1,6 @@
 # Проект: Место
 
-Ссылка на [проект](https://github.com/SashaSviridova/mesto-project.git)
+Ссылка на [проект](https://sashasviridova.github.io/mesto-project/index.html)
 
 ### Обзор
 * Интро
