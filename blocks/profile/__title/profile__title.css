@@ -18,7 +18,7 @@
     .profile__title {
         font-size: 27px;
         line-height: 33px;
-        text-align: center;
+        /* text-align: center; */
         padding-bottom: 7px;
         /* new */
         /* max-height: 26px; */
