@@ -1,90 +1,178 @@
 <!DOCTYPE html>
 <!-- Спасибо за проверку! -->
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./images/Vector.svg" />
-        <link rel="stylesheet" href="./pages/index.css" />
-        <title>Место</title>
-    </head>
-    <body class="page">
-        <header class="header">
-            <img src="./images/Vector.svg" alt="Логотип" class="header__logo" />
-        </header>
-        <main class="content">
-            <section class="profile">
-                <img src="./images/image.jpg" alt="Аватар" class="profile__avatar" />
-                <div class="profile__info">
-                    <div class="profile__group">
-                        <h1 class="profile__title">Жак-Ив Кусто</h1>
-                        <button type="button" class="profile__edit-button"></button>
-                    </div>
-                    <p class="profile__subtitle">Исследователь океана</p>
-                </div>
-                <button type="button" class="profile__add-button">
-                </button>
-            </section>
-            <section class="elements">
-                <ul class="elements__grid">
-                    <li class="element">
-                        <img src="./images/Karatchaevsk.jpg" alt="Крепость-раз" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Карачаевск</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Elbrus.jpg" alt="Гора-раз" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Гора Эльбрус</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Dombai.jpg" alt="Домбай-раз" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Домбай</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Elbrus-copy.jpg" alt="Гора-два" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Гора Эльбрус</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Dombai-copy.jpg" alt="Домбай-два" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Домбай</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                    <li class="element">
-                        <img src="./images/Karatchaevsk-copy.jpg" alt="Крепость-два" class="element__image"/>
-                        <div class="element__group">
-                            <h2 class="element__group-title">Карачаево-Ч...</h2>
-                            <button type="button" class="element__feedback" title="Лайк"></button>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </main>
-        <footer class="footer">
-            <p class="footer__author">©&nbsp;2022 Mesto Russia</p>
-        </footer>
-        <div class="popup popup_opened">
-            <div class="popup__container">
-                <button class="popup__close" type="button"></button>
-                <form action="#" class="popup__form" name="profile-edit">
-                    <h2 class="popup__heading">Редактировать профиль</h2>
-                    <input type="text" class="popup__item" id="name" name="name" placeholder="Жак-Ив Кусто" />
-                    <input type="text" class="popup__item" id="job" name="job" placeholder="Исследователь океана" />
-                    <button type="submit" class="popup__save">Сохранить</button>
-                </form>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./images/Vector.svg" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Место</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img src="./images/Vector.svg" alt="Логотип" class="header__logo" />
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img src="./images/image.jpg" alt="Аватар" class="profile__avatar" />
+        <div class="profile__info">
+          <div class="profile__group">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button type="button" class="profile__edit-button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь океана</p>
         </div>
-    </body>
+        <button type="button" class="profile__add-button"></button>
+      </section>
+      <section class="elements">
+        <ul class="elements__grid">
+          <li class="element">
+            <img
+              src="./images/Karatchaevsk.jpg"
+              alt="Крепость-раз"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Карачаевск</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+          <li class="element">
+            <img
+              src="./images/Elbrus.jpg"
+              alt="Гора-раз"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Гора Эльбрус</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+          <li class="element">
+            <img
+              src="./images/Dombai.jpg"
+              alt="Домбай-раз"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Домбай</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+          <li class="element">
+            <img
+              src="./images/Elbrus-copy.jpg"
+              alt="Гора-два"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Гора Эльбрус</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+          <li class="element">
+            <img
+              src="./images/Dombai-copy.jpg"
+              alt="Домбай-два"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Домбай</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+          <li class="element">
+            <img
+              src="./images/Karatchaevsk-copy.jpg"
+              alt="Крепость-два"
+              class="element__image"
+            />
+            <div class="element__group">
+              <h2 class="element__group-title">Карачаево-Ч...</h2>
+              <button
+                type="button"
+                class="element__feedback"
+                title="Лайк"
+              ></button>
+            </div>
+            <button type = "button" class = "element__trash"></button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__author">©&nbsp;2022 Mesto Russia</p>
+    </footer>
+    <div class="popup popup-edit">
+      <div class="popup__container">
+        <button class="popup__close" type="button"></button>
+        <form action="#" class="popup__form" name="profile-edit">
+          <h2 class="popup__heading">Редактировать профиль</h2>
+          <input
+            type="text"
+            class="popup__item popup__item_name"
+            name="name"
+            placeholder="Жак-Ив Кусто"
+            value="Имя"
+          />
+          <input
+            type="text"
+            class="popup__item popup__item_job"
+            name="job"
+            placeholder="Исследователь океана"
+          />
+          <button type="submit" class="popup__save">Сохранить</button>
+        </form>
+      </div>
+    </div>
+    <div class="popup popup-add-place">
+      <div class="popup__container">
+        <button class="popup__close popup__close_button" type="button"></button>
+        <form action="#" class="popup__form" name="add-new-place">
+          <h2 class="popup__heading">Новое место</h2>
+          <input
+            type="text"
+            class="popup__item"
+            id="name"
+            name="name"
+            placeholder="Название"
+          />
+          <input
+            type="text"
+            class="popup__item"
+            id="link"
+            name="link"
+            placeholder="Ссылка на картинку"
+          />
+          <button type="submit" class="popup__save">Создать</button>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
